@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "http://twitter.com/ninjaprox"
 
   s.platform     = :ios, '8.0'
+  s.watchos.deployment_target = '2.2'
 
   s.source       = { :git => "https://github.com/ninjaprox/NVActivityIndicatorView.git", :tag => "v#{s.version}" }
   s.source_files  = "NVActivityIndicatorView/**/*.swift"
