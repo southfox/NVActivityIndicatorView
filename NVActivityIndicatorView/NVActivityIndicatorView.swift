@@ -224,7 +224,7 @@ public enum NVActivityIndicatorType: Int {
      */
     case BallRotateChase
     
-    private static let allTypes = (Blank.rawValue ... BallRotateChase.rawValue).map{ NVActivityIndicatorType(rawValue: $0)! }
+    public static let allTypes = (Blank.rawValue ... BallRotateChase.rawValue).map{ NVActivityIndicatorType(rawValue: $0)! }
 
     private func animation() -> NVActivityIndicatorAnimationDelegate {
         switch self {
